@@ -36,8 +36,8 @@ function read(text) {
     else if (text == "Alexa") {
         speech.text = "Yes sir , How can i help you ?"
     }
-    else if (text == "") {
-        speech.text = ""
+    else if (text == "who are you ?") {
+        speech.text = "i am assistant of Md Altaf Hossen"
     }
     else if (text == "") {
         speech.text = ""
