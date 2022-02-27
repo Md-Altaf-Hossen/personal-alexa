@@ -11,82 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        h1 {
-            text-align: center;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .container {
-            margin-top: 30px;
-            width: 500px;
-            height: 400px;
-            background-color: #ddd;
-            padding: 10px;
-            border: 2px solid tomato;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        i {
-            font-size: 2rem;
-            border: 2px solid pink;
-            color: blueviolet;
-            border-radius: 50%;
-            transition: background 0.5s;
-            padding: 10px;
-        }
-
-        i:hover {
-            color: cyan;
-            background-color: tomato;
-            cursor: pointer;
-        }
-
-        .para-style {
-            font-size: 25px;
-            color: red;
-            font-weight: bold;
-        }
-
-        #para {
-            font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: tomato;
-
-        }
-
-        #res {
-            font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: green;
-
-        }
-
-        #res::before {
-            content: open-quote;
-        }
-
-        #res::after {
-            content: close-quote;
-        }
-
-        h1 {
-            font-family: cursive;
-        }
-
-        hr {
-            width: 90%;
-            border: 1px dashed black;
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -100,9 +25,13 @@
         <div>
             <p id="res"></p>
         </div>
+        <div>
+            <p id="link" class="link">If you see my boss photo , please click <span>&#10140;</span> <a
+                    class="photo-style" href="photo.html">here</a></p>
+        </div>
     </div>
 
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
