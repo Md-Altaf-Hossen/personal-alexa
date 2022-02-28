@@ -1,3 +1,8 @@
+
+document.getElementById('close').addEventListener('click', function (){
+    document.getElementById('altaf').style.display = 'none';
+})
+
 var recognition = new webkitSpeechRecognition();
 
 recognition.onresult = function (event) {
@@ -60,18 +65,19 @@ function read(text) {
     else if (text == "do you have any girlfriend") {
         speech.text = "yes i have more and more girlfriends"
     }
-    else if (text == "give me your boss phone number") {
+    else if (text == "give me a phone number of your boss") {
         speech.text = "+88 01873-379859"
     }
-    else if (text == "give me your boss photo") {
-        speech.text = "";
+    else if (text == "give me a picture of your owner") {
+        speech.text = "click the button bellow";
         document.getElementById('link').style.display = 'block';
     }
-    else if (text == "") {
-        speech.text = ""
+    else if (text == "Alexa can you hear me") {
+        speech.text = "Yes boss !! How can i help you ?"
     }
-    else if (text == "") {
-        speech.text = ""
+    else if (text == "MD Altaf Hussain") {
+        speech.text = "";
+        document.getElementById('altaf').style.display = 'block';
     }
     else if (text == "") {
         speech.text = ""

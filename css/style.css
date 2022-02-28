@@ -4,6 +4,7 @@ h1 {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -95,5 +96,49 @@ hr {
     transition: background 0.7s;
 }
 
+.img-altaf {
+    width: 82%;
+}
+
+.container2 {
+    /* display: none; */
+    margin-top: 30px;
+    width: 450px;
+    height: 400px;
+    background-color: #ddd;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 6px 13px 52px black;
+}
 
 
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95% !important;
+
+    }
+
+    .container2 {
+        width: 85% ;
+        
+    }
+    .close-button{
+        padding: 5px 10px;
+        font-size: 18px;
+        margin-top: 15px;
+        background-color:#3565ff;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: white;
+        
+    }
+    .close-button:hover{
+        background-color: white;
+        color: black;
+        box-shadow: 5px 3px 12px black;
+    }
+
+    
+}
