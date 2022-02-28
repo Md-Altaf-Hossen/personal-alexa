@@ -101,7 +101,6 @@ hr {
 }
 
 .container2 {
-    display: none;
     margin-top: 30px;
     width: 450px;
     height: 400px;
@@ -121,24 +120,26 @@ hr {
     }
 
     .container2 {
-        width: 85% ;
-        
+        width: 85%;
+
     }
-    .close-button{
+
+    .close-button {
         padding: 5px 10px;
         font-size: 18px;
         margin-top: 15px;
-        background-color:#3565ff;
+        background-color: #3565ff;
         border: 1px solid black;
         border-radius: 5px;
         color: white;
-        
+
     }
-    .close-button:hover{
+
+    .close-button:hover {
         background-color: white;
         color: black;
         box-shadow: 5px 3px 12px black;
     }
 
-    
+
 }
