@@ -12,7 +12,7 @@ function read(text) {
     var speech = new SpeechSynthesisUtterance();
     speech.text = text;
     if (text == 'hello') {
-        speech.text = "Bye";
+        speech.text = "Hi ";
     }
     else if (text == "what is your name") {
         speech.text = "My name is Alexa , i am your assistant "
