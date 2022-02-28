@@ -121,7 +121,7 @@ hr {
 
     .container2 {
         width: 85%;
-
+        display: none;
     }
 
     .close-button {
