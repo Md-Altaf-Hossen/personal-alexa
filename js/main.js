@@ -79,8 +79,9 @@ function read(text) {
         speech.text = "";
         document.getElementById('altaf').style.display = 'block';
     }
-    else if (text == "") {
-        speech.text = ""
+    else if (text == "gallery of Pagli") {
+        speech.text = "";
+        document.getElementById('album').style.display = 'block';
     }
     else if (text == "") {
         speech.text = ""

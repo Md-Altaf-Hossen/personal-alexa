@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    
+
     margin-top: 30px;
     width: 500px;
     height: 400px;
@@ -88,6 +88,9 @@ hr {
     text-decoration: none;
     border: 1px solid tomato;
     border-radius: 10px;
+}
+#album{
+    display: none;
 }
 
 .photo-style:hover {
